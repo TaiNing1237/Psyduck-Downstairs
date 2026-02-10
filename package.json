@@ -1,0 +1,16 @@
+{
+    "name": "psyduck-down-stairs",
+    "version": "1.0.0",
+    "description": "Psyduck Down Stairs Chrome Extension Game",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@types/chrome": "^0.0.260",
+        "@types/node": "^20.11.0",
+        "typescript": "^5.3.3",
+        "vite": "^5.0.12"
+    }
+}

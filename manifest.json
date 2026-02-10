@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Psyduck Down Stairs",
+    "version": "1.0.0",
+    "description": "Play Psyduck Down Stairs when offline!",
+    "permissions": [
+        "webNavigation",
+        "tabs"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    }
+}

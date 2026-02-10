@@ -1,0 +1,1 @@
+chrome.webNavigation.onErrorOccurred.addListener(r=>{if(r.frameId===0){const e=r.error||"";(e.includes("net::ERR_INTERNET_DISCONNECTED")||e.includes("net::ERR_CONNECTION_RESET")||e.includes("net::ERR_NAME_NOT_RESOLVED"))&&chrome.tabs.update(r.tabId,{url:"game.html"})}});
